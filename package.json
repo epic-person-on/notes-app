@@ -1,0 +1,23 @@
+{
+  "name": "outgoing-grocery-research-8gsrp",
+  "productName": "outgoing-grocery-research-8gsrp",
+  "description": "My Electron application description",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "Ryan He",
+  "scripts": {
+    "start": "npm run build:css && electron .",
+    "build:css": "npx @tailwindcss/cli -i ./css/input.css -o ./css/output.css --minify"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.12",
+    "install": "^0.13.0",
+    "npm": "^11.5.2",
+    "quill": "^2.0.3",
+    "tailwindcss": "^4.1.12"
+  },
+  "devDependencies": {
+    "electron": "38.0.0-beta.6"
+  }
+}
