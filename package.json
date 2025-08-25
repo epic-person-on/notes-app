@@ -1,7 +1,7 @@
 {
-  "name": "outgoing-grocery-research-8gsrp",
-  "productName": "outgoing-grocery-research-8gsrp",
-  "description": "My Electron application description",
+  "name": "notes-app",
+  "productName": "Notes-App",
+  "description": "A simple note taking app",
   "keywords": [],
   "main": "./main.js",
   "version": "1.0.0",
@@ -12,7 +12,11 @@
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.12",
+    "electron-context-menu": "^4.1.1",
+    "fullcalendar": "^6.1.19",
+    "highlight.js": "^11.11.1",
     "install": "^0.13.0",
+    "katex": "^0.16.22",
     "npm": "^11.5.2",
     "quill": "^2.0.3",
     "tailwindcss": "^4.1.12"

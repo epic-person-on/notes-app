@@ -1,4 +1,8 @@
-
 const quill = new Quill('#editor', {
-    theme: 'snow'
+  modules: {
+    syntax: true,
+    toolbar: '#toolbar-container',
+  },
+  placeholder: 'Compose an epic...',
+  theme: 'snow',
 });
